@@ -177,7 +177,7 @@ if __name__ == '__main__':
     for i in range(10):
         lda.plot_distribution(i)
 
-    lda.show_top_(10,preprocess.inv_mapping)
+    lda.show_top_(100,10,preprocess.inv_mapping)
 
     store_objects = {0:preprocess, 1:lda}
 
